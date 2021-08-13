@@ -11,9 +11,6 @@ namespace Reflection
         private int _id;
         private string _name;
 
-        public int PublicId;
-        public string PublicName;
-
         public ReflectionInformation()
         {
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\source\\repos\\CSharpBasic\\Generic\\Generic.csproj": {}
+    "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CSharpBasic\\Generic\\Generic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\source\\repos\\CSharpBasic\\Generic\\Generic.csproj": {
+    "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CSharpBasic\\Generic\\Generic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\CSharpBasic\\Generic\\Generic.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CSharpBasic\\Generic\\Generic.csproj",
         "projectName": "Generic",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\CSharpBasic\\Generic\\Generic.csproj",
+        "projectPath": "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CSharpBasic\\Generic\\Generic.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\CSharpBasic\\Generic\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CSharpBasic\\Generic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

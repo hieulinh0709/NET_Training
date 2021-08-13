@@ -12,6 +12,7 @@ namespace FileHanding
             //FileStreamWirterReader();
             FileInfo();
         }
+        #region FileStreamWirterReader
         private static void FileStreamWirterReader()
         {
             try
@@ -19,6 +20,7 @@ namespace FileHanding
                 string file = @"C:\csharp\filestream.txt";
 
                 //Creating File
+                //using: executes them and then releases the objects or resources
                 using (FileStream fs = new FileStream(file, FileMode.Create))
                 {
                     //Adding current date and time in file
@@ -52,7 +54,9 @@ namespace FileHanding
                 Console.WriteLine(e.Message.ToString());
             }
         }
+        #endregion FileStreamWirterReader
 
+        #region fileinfo
         private static void FileInfo()
         {
             string path = @"C:\csharp\fileinfo.txt";
@@ -99,6 +103,7 @@ namespace FileHanding
             }
             Console.ReadKey();
         }
+        #endregion fileinfo
     }
-    
+
 }

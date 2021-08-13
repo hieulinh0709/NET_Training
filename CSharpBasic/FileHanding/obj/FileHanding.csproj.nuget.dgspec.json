@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\source\\repos\\CSharpBasic\\FileHanding\\FileHanding.csproj": {}
+    "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CSharpBasic\\FileHanding\\FileHanding.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\source\\repos\\CSharpBasic\\FileHanding\\FileHanding.csproj": {
+    "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CSharpBasic\\FileHanding\\FileHanding.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\CSharpBasic\\FileHanding\\FileHanding.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CSharpBasic\\FileHanding\\FileHanding.csproj",
         "projectName": "FileHanding",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\CSharpBasic\\FileHanding\\FileHanding.csproj",
+        "projectPath": "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CSharpBasic\\FileHanding\\FileHanding.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\CSharpBasic\\FileHanding\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CSharpBasic\\FileHanding\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

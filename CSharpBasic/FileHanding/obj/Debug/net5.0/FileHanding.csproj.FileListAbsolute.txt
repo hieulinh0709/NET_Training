@@ -1,0 +1,16 @@
+C:\Users\Admin\source\repos\CSharpBasic\FileHanding\bin\Debug\net5.0\FileHanding.exe
+C:\Users\Admin\source\repos\CSharpBasic\FileHanding\bin\Debug\net5.0\FileHanding.deps.json
+C:\Users\Admin\source\repos\CSharpBasic\FileHanding\bin\Debug\net5.0\FileHanding.runtimeconfig.json
+C:\Users\Admin\source\repos\CSharpBasic\FileHanding\bin\Debug\net5.0\FileHanding.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\CSharpBasic\FileHanding\bin\Debug\net5.0\FileHanding.dll
+C:\Users\Admin\source\repos\CSharpBasic\FileHanding\bin\Debug\net5.0\ref\FileHanding.dll
+C:\Users\Admin\source\repos\CSharpBasic\FileHanding\bin\Debug\net5.0\FileHanding.pdb
+C:\Users\Admin\source\repos\CSharpBasic\FileHanding\obj\Debug\net5.0\FileHanding.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\CSharpBasic\FileHanding\obj\Debug\net5.0\FileHanding.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\CSharpBasic\FileHanding\obj\Debug\net5.0\FileHanding.AssemblyInfo.cs
+C:\Users\Admin\source\repos\CSharpBasic\FileHanding\obj\Debug\net5.0\FileHanding.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\CSharpBasic\FileHanding\obj\Debug\net5.0\FileHanding.dll
+C:\Users\Admin\source\repos\CSharpBasic\FileHanding\obj\Debug\net5.0\ref\FileHanding.dll
+C:\Users\Admin\source\repos\CSharpBasic\FileHanding\obj\Debug\net5.0\FileHanding.pdb
+C:\Users\Admin\source\repos\CSharpBasic\FileHanding\obj\Debug\net5.0\FileHanding.genruntimeconfig.cache
+C:\Users\Admin\source\repos\CSharpBasic\FileHanding\obj\Debug\net5.0\FileHanding.csproj.AssemblyReference.cache

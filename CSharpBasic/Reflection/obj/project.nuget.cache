@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6lOJgwEtH+ba7NAQh56oo4RcXetD2dV2CuiNW67Fo9dDD8bA+7rk0Fj9fOevSP86ecjDeilfbNH0U8kj9fMnug==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\CSharpBasic\\Reflection\\Reflection.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\system.reflection.metadata\\5.0.0\\system.reflection.metadata.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

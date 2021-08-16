@@ -37,7 +37,6 @@ C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\Generic\bin\Deb
 C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\Generic\bin\Debug\net5.0\Generic.dll
 C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\Generic\bin\Debug\net5.0\ref\Generic.dll
 C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\Generic\bin\Debug\net5.0\Generic.pdb
-C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\Generic\obj\Debug\net5.0\Generic.csproj.AssemblyReference.cache
 C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\Generic\obj\Debug\net5.0\Generic.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\Generic\obj\Debug\net5.0\Generic.AssemblyInfoInputs.cache
 C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\Generic\obj\Debug\net5.0\Generic.AssemblyInfo.cs

@@ -1,0 +1,16 @@
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\Async\bin\Debug\net5.0\Async.exe
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\Async\bin\Debug\net5.0\Async.deps.json
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\Async\bin\Debug\net5.0\Async.runtimeconfig.json
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\Async\bin\Debug\net5.0\Async.runtimeconfig.dev.json
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\Async\bin\Debug\net5.0\Async.dll
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\Async\bin\Debug\net5.0\ref\Async.dll
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\Async\bin\Debug\net5.0\Async.pdb
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\Async\obj\Debug\net5.0\Async.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\Async\obj\Debug\net5.0\Async.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\Async\obj\Debug\net5.0\Async.AssemblyInfo.cs
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\Async\obj\Debug\net5.0\Async.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\Async\obj\Debug\net5.0\Async.dll
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\Async\obj\Debug\net5.0\ref\Async.dll
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\Async\obj\Debug\net5.0\Async.pdb
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\Async\obj\Debug\net5.0\Async.genruntimeconfig.cache
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\Async\obj\Debug\net5.0\Async.csproj.AssemblyReference.cache

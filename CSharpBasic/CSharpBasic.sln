@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Async", "Async\Async.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeFirst", "CodeFirst\CodeFirst.csproj", "{E87ABD79-D8CA-4B99-9093-F9268B39C703}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solid", "Solid\Solid.csproj", "{B7574A57-9A9A-4103-89E1-1E38A5DD60BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solid", "Solid\Solid.csproj", "{B7574A57-9A9A-4103-89E1-1E38A5DD60BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate", "Delegate\Delegate.csproj", "{6A667A37-0F25-48E6-9646-C1D9997B6E42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{B7574A57-9A9A-4103-89E1-1E38A5DD60BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7574A57-9A9A-4103-89E1-1E38A5DD60BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7574A57-9A9A-4103-89E1-1E38A5DD60BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A667A37-0F25-48E6-9646-C1D9997B6E42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A667A37-0F25-48E6-9646-C1D9997B6E42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A667A37-0F25-48E6-9646-C1D9997B6E42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A667A37-0F25-48E6-9646-C1D9997B6E42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

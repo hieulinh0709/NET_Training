@@ -1,0 +1,15 @@
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Core\bin\Release\net5.0\CheckNumberPhone.Core.deps.json
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Core\bin\Release\net5.0\CheckNumberPhone.Core.runtimeconfig.json
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Core\bin\Release\net5.0\CheckNumberPhone.Core.runtimeconfig.dev.json
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Core\bin\Release\net5.0\CheckNumberPhone.Core.dll
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Core\bin\Release\net5.0\ref\CheckNumberPhone.Core.dll
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Core\bin\Release\net5.0\CheckNumberPhone.Core.pdb
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Core\obj\Release\net5.0\CheckNumberPhone.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Core\obj\Release\net5.0\CheckNumberPhone.Core.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Core\obj\Release\net5.0\CheckNumberPhone.Core.AssemblyInfo.cs
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Core\obj\Release\net5.0\CheckNumberPhone.Core.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Core\obj\Release\net5.0\CheckNumberPhone.Core.dll
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Core\obj\Release\net5.0\ref\CheckNumberPhone.Core.dll
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Core\obj\Release\net5.0\CheckNumberPhone.Core.pdb
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Core\obj\Release\net5.0\CheckNumberPhone.Core.genruntimeconfig.cache
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Core\obj\Release\net5.0\CheckNumberPhone.Core.csproj.AssemblyReference.cache

@@ -1,0 +1,15 @@
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Repository\bin\Release\net5.0\CheckNumberPhone.Repository.deps.json
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Repository\bin\Release\net5.0\CheckNumberPhone.Repository.dll
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Repository\bin\Release\net5.0\ref\CheckNumberPhone.Repository.dll
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Repository\bin\Release\net5.0\CheckNumberPhone.Repository.pdb
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Repository\bin\Release\net5.0\CheckNumberPhone.Core.dll
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Repository\bin\Release\net5.0\CheckNumberPhone.Core.pdb
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Repository\obj\Release\net5.0\CheckNumberPhone.Repository.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Repository\obj\Release\net5.0\CheckNumberPhone.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Repository\obj\Release\net5.0\CheckNumberPhone.Repository.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Repository\obj\Release\net5.0\CheckNumberPhone.Repository.AssemblyInfo.cs
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Repository\obj\Release\net5.0\CheckNumberPhone.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Repository\obj\Release\net5.0\CheckNumberPhone.Repository.csproj.CopyComplete
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Repository\obj\Release\net5.0\CheckNumberPhone.Repository.dll
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Repository\obj\Release\net5.0\ref\CheckNumberPhone.Repository.dll
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Repository\obj\Release\net5.0\CheckNumberPhone.Repository.pdb

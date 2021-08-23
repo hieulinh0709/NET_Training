@@ -75,9 +75,9 @@ namespace FindBeeNumbers
             int total5NumberFirst = 0;
             int total5NumberLast = 0;
 
-            total5NumberFirst = numberPhone.Substring(0, 5).Select(x => Int32.Parse(x.ToString())).ToArray().Sum();
+            total5NumberFirst = numberPhone.Substring(0, 5).Select(x => Int32.Parse(x.ToString())).Sum();
 
-            total5NumberLast = numberPhone.Substring(5, 5).Select(x => Int32.Parse(x.ToString())).ToArray().Sum();
+            total5NumberLast = numberPhone.Substring(5, 5).Select(x => Int32.Parse(x.ToString())).Sum();
 
             foreach( var pair in sumOfNumbers)
             {

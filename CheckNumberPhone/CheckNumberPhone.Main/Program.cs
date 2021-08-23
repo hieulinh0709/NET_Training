@@ -41,26 +41,30 @@ namespace FindBeeNumbers
             {
                 Console.WriteLine("danh sach phone number is null");
             }
-
-            foreach (var phone in phones)
+            else
             {
-                var twoLastNumber = phone.Number.Substring(phone.Number.Length - 2);
 
-                // The last 2 num chars is taboo
-                if (Array.Exists(twoLastNumberTaboo, element => element.Equals(twoLastNumber)))
+                foreach (var phone in phones)
                 {
-                    Console.WriteLine("number phone: {0} - {1} rule is violated,", phone.Number, phone.Network);
-                }
-                else
-                {
-                    // Total first 5 nums / Total last 5 nums: matches 1 in n conditions configuratin into Bee.json
-                    if (CheckTotal5NumberFirstAndLast(phone.Number, bee.SumOfNumbers) && Array.Exists(twoLastNumberNice, element => element.Equals(twoLastNumber))) 
+                    var twoLastNumber = phone.Number.Substring(phone.Number.Length - 2);
+
+                    // The last 2 num chars is taboo
+                    if (Array.Exists(twoLastNumberTaboo, element => element.Equals(twoLastNumber)))
                     {
-                        Console.WriteLine("Good Bee => number phone: {0} - {1} rule is violated,", phone.Number, phone.Network);
-                    };
-                }
+                        Console.WriteLine("number phone: {0} - {1} rule is violated,", phone.Number, phone.Network);
+                    }
+                    else
+                    {
+                        // Total first 5 nums / Total last 5 nums: matches 1 in n conditions configuratin into Bee.json
+                        if (CheckTotal5NumberFirstAndLast(phone.Number, bee.SumOfNumbers) && Array.Exists(twoLastNumberNice, element => element.Equals(twoLastNumber)))
+                        {
+                            Console.WriteLine("Good Bee => number phone: {0} - {1} rule is violated,", phone.Number, phone.Network);
+                        };
+                    }
 
+                }
             }
+
 
             Console.ReadKey();
 

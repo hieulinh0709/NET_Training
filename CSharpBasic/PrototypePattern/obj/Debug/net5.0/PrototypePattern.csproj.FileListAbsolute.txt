@@ -1,0 +1,16 @@
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\PrototypePattern\bin\Debug\net5.0\PrototypePattern.exe
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\PrototypePattern\bin\Debug\net5.0\PrototypePattern.deps.json
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\PrototypePattern\bin\Debug\net5.0\PrototypePattern.runtimeconfig.json
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\PrototypePattern\bin\Debug\net5.0\PrototypePattern.runtimeconfig.dev.json
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\PrototypePattern\bin\Debug\net5.0\PrototypePattern.dll
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\PrototypePattern\bin\Debug\net5.0\ref\PrototypePattern.dll
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\PrototypePattern\bin\Debug\net5.0\PrototypePattern.pdb
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\PrototypePattern\obj\Debug\net5.0\PrototypePattern.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\PrototypePattern\obj\Debug\net5.0\PrototypePattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\PrototypePattern\obj\Debug\net5.0\PrototypePattern.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\PrototypePattern\obj\Debug\net5.0\PrototypePattern.AssemblyInfo.cs
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\PrototypePattern\obj\Debug\net5.0\PrototypePattern.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\PrototypePattern\obj\Debug\net5.0\PrototypePattern.dll
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\PrototypePattern\obj\Debug\net5.0\ref\PrototypePattern.dll
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\PrototypePattern\obj\Debug\net5.0\PrototypePattern.pdb
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\PrototypePattern\obj\Debug\net5.0\PrototypePattern.genruntimeconfig.cache

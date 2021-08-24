@@ -20,7 +20,7 @@ namespace FindBeeNumbers
     /// <summary>
     /// Program class
     /// </summary>
-    public class Program
+    public static class Program
     {
         static void Main(string[] args)
         {
@@ -55,7 +55,13 @@ namespace FindBeeNumbers
 
         }
 
-        static List<Phone> ListNumberPhoneChecked(List<Phone> phones, Bee bee)
+        /// <summary>
+        /// Checked phone number list
+        /// </summary>
+        /// <param name="phones"></param>
+        /// <param name="bee"></param>
+        /// <returns></returns>
+        public static List<Phone> ListNumberPhoneChecked(List<Phone> phones, Bee bee)
         {
             var providerNetworkFromBee = bee.Providers;
             var twoLastNumberTabooFromBee = bee.TabooNumbers;
@@ -74,7 +80,7 @@ namespace FindBeeNumbers
                     var twoLastNumber = phone.Number.Substring(phone.Number.Length - 2);
 
                     // Check provider network
-                    if (CheckProviderNetwork(phone, providerNetworkFromBee))
+                    if (IsProviderNetwork(phone, providerNetworkFromBee))
                     {
                         // The last 2 num chars is taboo
                         if (Array.Exists(twoLastNumberTabooFromBee, element => element.Equals(twoLastNumber)))
@@ -85,7 +91,7 @@ namespace FindBeeNumbers
                         else
                         {
                             // Total first 5 nums / Total last 5 nums: matches 1 in n conditions configuratin into Bee.json
-                            if (CheckTotal5NumberFirstAndLast(phone.Number, bee.SumOfNumbers) &&
+                            if (IsTotal5NumberFirstAndLast(phone.Number, bee.SumOfNumbers) &&
                                 Array.Exists(twoLastNumberNiceFromBee, element => element.Equals(twoLastNumber)))
                             {
                                 phonesChecked.Add(phone);
@@ -106,7 +112,7 @@ namespace FindBeeNumbers
         /// <param name="phone"></param>
         /// <param name="providersBee"></param>
         /// <returns></returns>
-        static bool CheckProviderNetwork(Phone phone, List<Provider> providersBee)
+        public static bool IsProviderNetwork(Phone phone, List<Provider> providersBee)
         {
             var providerNetwork = phone.Network;
             var threeFirstNumber = phone.Number.Substring(0, 3);
@@ -131,7 +137,7 @@ namespace FindBeeNumbers
         /// <param name="numberPhone"></param>
         /// <param name="sumOfNumbers"></param>
         /// <returns></returns>
-        static bool CheckTotal5NumberFirstAndLast(string numberPhone, List<SumOfNumbers> sumOfNumbers)
+        public static bool IsTotal5NumberFirstAndLast(string numberPhone, List<SumOfNumbers> sumOfNumbers)
         {
             int total5NumberFirst = 0;
             int total5NumberLast = 0;

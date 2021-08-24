@@ -14,6 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CheckNumberPhone.Main\CheckNumberPhone.Main.csproj" />
     <ProjectReference Include="..\CheckNumberPhone.Repository\CheckNumberPhone.Repository.csproj" />
   </ItemGroup>
 

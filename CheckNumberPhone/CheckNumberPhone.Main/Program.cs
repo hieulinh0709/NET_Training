@@ -46,6 +46,7 @@ namespace FindBeeNumbers
 
                 foreach (var phone in phones)
                 {
+
                     var twoLastNumber = phone.Number.Substring(phone.Number.Length - 2);
 
                     // The last 2 num chars is taboo
@@ -56,7 +57,8 @@ namespace FindBeeNumbers
                     else
                     {
                         // Total first 5 nums / Total last 5 nums: matches 1 in n conditions configuratin into Bee.json
-                        if (CheckTotal5NumberFirstAndLast(phone.Number, bee.SumOfNumbers) && Array.Exists(twoLastNumberNice, element => element.Equals(twoLastNumber)))
+                        if (CheckTotal5NumberFirstAndLast(phone.Number, bee.SumOfNumbers) && 
+                            Array.Exists(twoLastNumberNice, element => element.Equals(twoLastNumber)))
                         {
                             Console.WriteLine("Good Bee => number phone: {0} - {1} rule is violated,", phone.Number, phone.Network);
                         };

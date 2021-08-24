@@ -12,8 +12,8 @@ namespace CheckNumberPhone.Core.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Number = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Network = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    Number = table.Column<string>(type: "varchar(10)", nullable: true),
+                    Network = table.Column<string>(type: "varchar(50)", nullable: true)
                 },
                 constraints: table =>
                 {

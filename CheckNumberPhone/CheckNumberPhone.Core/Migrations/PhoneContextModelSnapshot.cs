@@ -26,10 +26,12 @@ namespace CheckNumberPhone.Core.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Network")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("varchar(50)")
+                        .HasColumnName("Network");
 
                     b.Property<string>("Number")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("varchar(10)")
+                        .HasColumnName("Number");
 
                     b.HasKey("Id");
 

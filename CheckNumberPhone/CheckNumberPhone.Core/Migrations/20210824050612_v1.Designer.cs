@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CheckNumberPhone.Core.Migrations
 {
     [DbContext(typeof(PhoneContext))]
-    [Migration("20210823081718_v1")]
+    [Migration("20210824050612_v1")]
     partial class v1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -28,10 +28,12 @@ namespace CheckNumberPhone.Core.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Network")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("varchar(50)")
+                        .HasColumnName("Network");
 
                     b.Property<string>("Number")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("varchar(10)")
+                        .HasColumnName("Number");
 
                     b.HasKey("Id");
 

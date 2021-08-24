@@ -28,9 +28,13 @@ namespace FindBeeNumbers
 
             // Gets the full path or UNC location of the loaded file that contains the manifest.
             string path = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location) + fileName;
+            Bee bee = new Bee();
 
-            ReadOnlyJson readOnlyJson = new ReadOnlyJson();
-            Bee bee = readOnlyJson.ReadJson(path);
+            if (!string.IsNullOrEmpty(path))
+            {
+                ReadOnlyJson readOnlyJson = new ReadOnlyJson();
+                bee = readOnlyJson.ReadJson(path);
+            }
 
             var providerNetworkFromBee = bee.Providers;
             var twoLastNumberTabooFromBee = bee.TabooNumbers;

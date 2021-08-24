@@ -36,15 +36,31 @@ namespace FindBeeNumbers
                 bee = readOnlyJson.ReadJson(path);
             }
 
-            var providerNetworkFromBee = bee.Providers;
-            var twoLastNumberTabooFromBee = bee.TabooNumbers;
-            var twoLastNumberNiceFromBee = bee.NiceNumbers;
-
             using IHost host = CreateHostBuilder(args).Build();
 
             var scoping = ExemplifyScoping<MyController>(host.Services);
 
             var phones = scoping.FindNumberPhoneWithBee();
+
+            var listNumberPhoneChecked = ListNumberPhoneChecked(phones, bee);
+
+
+            Console.WriteLine("*************** number phone match Bee ***************");
+            foreach (var phone in listNumberPhoneChecked)
+            {
+                Console.WriteLine("{0} - {1}", phone.Number, phone.Network);
+            }
+
+            Console.ReadKey();
+
+        }
+
+        static List<Phone> ListNumberPhoneChecked(List<Phone> phones, Bee bee)
+        {
+            var providerNetworkFromBee = bee.Providers;
+            var twoLastNumberTabooFromBee = bee.TabooNumbers;
+            var twoLastNumberNiceFromBee = bee.NiceNumbers;
+            List<Phone> phonesChecked = new List<Phone>();
 
             if (phones == null)
             {
@@ -72,8 +88,7 @@ namespace FindBeeNumbers
                             if (CheckTotal5NumberFirstAndLast(phone.Number, bee.SumOfNumbers) &&
                                 Array.Exists(twoLastNumberNiceFromBee, element => element.Equals(twoLastNumber)))
                             {
-                                Console.WriteLine("*************** number phone match Bee ***************");
-                                Console.WriteLine("{0} - {1},", phone.Number, phone.Network);
+                                phonesChecked.Add(phone);
                             };
                         }
                     }
@@ -82,9 +97,7 @@ namespace FindBeeNumbers
                 }
             }
 
-
-            Console.ReadKey();
-
+            return phonesChecked;
         }
 
         /// <summary>

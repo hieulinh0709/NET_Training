@@ -64,7 +64,7 @@ namespace FindBeeNumbers
                         if (Array.Exists(twoLastNumberTabooFromBee, element => element.Equals(twoLastNumber)))
                         {
                             // rule is violated
-                            Console.WriteLine("rule is violated => number phone: {0} - {1} rule is violated,", phone.Number, phone.Network);
+                            //Console.WriteLine("rule is violated => number phone: {0} - {1} rule is violated,", phone.Number, phone.Network);
                         }
                         else
                         {
@@ -72,7 +72,8 @@ namespace FindBeeNumbers
                             if (CheckTotal5NumberFirstAndLast(phone.Number, bee.SumOfNumbers) &&
                                 Array.Exists(twoLastNumberNiceFromBee, element => element.Equals(twoLastNumber)))
                             {
-                                Console.WriteLine("number phone match Bee: {0} - {1},", phone.Number, phone.Network);
+                                Console.WriteLine("*************** number phone match Bee ***************");
+                                Console.WriteLine("{0} - {1},", phone.Number, phone.Network);
                             };
                         }
                     }
@@ -97,11 +98,14 @@ namespace FindBeeNumbers
             var providerNetwork = phone.Network;
             var threeFirstNumber = phone.Number.Substring(0, 3);
 
-            foreach (var provider in providersBee)
+            if (providersBee != null)
             {
-                if (provider.Name.Equals(providerNetwork))
+                foreach (var provider in providersBee)
                 {
-                    return Array.Exists(provider.Prefixes, element => element.Equals(threeFirstNumber));
+                    if (provider.Name.Equals(providerNetwork))
+                    {
+                        return Array.Exists(provider.Prefixes, element => element.Equals(threeFirstNumber));
+                    }
                 }
             }
 

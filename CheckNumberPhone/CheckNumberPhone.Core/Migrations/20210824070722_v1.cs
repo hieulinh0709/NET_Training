@@ -19,6 +19,18 @@ namespace CheckNumberPhone.Core.Migrations
                 {
                     table.PrimaryKey("PK_Phones", x => x.Id);
                 });
+
+            migrationBuilder.InsertData(
+                table: "Phones",
+                columns: new[] { "Id", "Network", "Number" },
+                values: new object[,]
+                {
+                    { 1, "Viettel", "0861975619" },
+                    { 2, "Viettel", "0975375619" },
+                    { 3, "Mobi", "0894375619" },
+                    { 4, "VinaPhone", "0917775619" },
+                    { 5, "Viettel", "0337578949" }
+                });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

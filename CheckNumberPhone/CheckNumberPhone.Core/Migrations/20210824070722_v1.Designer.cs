@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CheckNumberPhone.Core.Migrations
 {
     [DbContext(typeof(PhoneContext))]
-    [Migration("20210824050612_v1")]
+    [Migration("20210824070722_v1")]
     partial class v1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -38,6 +38,38 @@ namespace CheckNumberPhone.Core.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Phones");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Network = "Viettel",
+                            Number = "0861975619"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Network = "Viettel",
+                            Number = "0975375619"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Network = "Mobi",
+                            Number = "0894375619"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Network = "VinaPhone",
+                            Number = "0917775619"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Network = "Viettel",
+                            Number = "0337578949"
+                        });
                 });
 #pragma warning restore 612, 618
         }

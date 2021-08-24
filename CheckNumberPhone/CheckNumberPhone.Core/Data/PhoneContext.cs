@@ -9,14 +9,11 @@ namespace FindBeeNumbers.Core.Data
     {
         private readonly IConfiguration _iconfiguration;
 
-        //public BeeContext(DbContextOptions options) : base(options)
-        //{
-        //}
-
         public PhoneContext(
             IConfiguration iconfiguration)
         {
             _iconfiguration = iconfiguration;
+
         }
 
         public DbSet<Phone> Phones { get; set; }
@@ -30,6 +27,19 @@ namespace FindBeeNumbers.Core.Data
         {
             base.OnModelCreating(builder);
             builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+
+            this.SeedData(builder);
+        }
+
+        protected void SeedData(ModelBuilder builder)
+        {
+            builder.Entity<Phone>().HasData(
+                 new Phone() { Id = 1, Number = "0861975619", Network = "Viettel" },
+                 new Phone() { Id = 2, Number = "0975375619", Network = "Viettel" },
+                 new Phone() { Id = 3, Number = "0894375619", Network = "Mobi" },
+                 new Phone() { Id = 4, Number = "0917775619", Network = "VinaPhone" },
+                 new Phone() { Id = 5, Number = "0337578949", Network = "Viettel" }
+            );
         }
     }
 }

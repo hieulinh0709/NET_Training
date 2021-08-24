@@ -38,7 +38,8 @@ namespace FindBeeNumbers.Core.Data
                  new Phone() { Id = 2, Number = "0975375619", Network = "Viettel" },
                  new Phone() { Id = 3, Number = "0894375619", Network = "Mobi" },
                  new Phone() { Id = 4, Number = "0917775619", Network = "VinaPhone" },
-                 new Phone() { Id = 5, Number = "0337578949", Network = "Viettel" }
+                 new Phone() { Id = 5, Number = "0337578966", Network = "Viettel" },
+                 new Phone() { Id = 6, Number = "0881775727", Network = "VietNamMobile" }
             );
         }
     }

@@ -3,6 +3,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FindBeeNumbers.Core.Entities
 {
+    /// <summary>
+    /// Phone Entity
+    /// </summary>
     public class Phone
     {
         [Key]

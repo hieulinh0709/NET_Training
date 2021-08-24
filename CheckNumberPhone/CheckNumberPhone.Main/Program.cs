@@ -2,6 +2,7 @@
 using CheckNumberPhone.Main.FileHandle;
 using CheckNumberPhone.Main.Interface;
 using FindBeeNumbers.Core.Data;
+using FindBeeNumbers.Core.Entities;
 using FindBeeNumbers.Core.Model;
 using FindBeeNumbers.Repository.IRepository;
 using FindBeeNumbers.Repository.Repository;
@@ -16,6 +17,9 @@ using System.Linq;
 
 namespace FindBeeNumbers
 {
+    /// <summary>
+    /// Program class
+    /// </summary>
     public class Program
     {
         static void Main(string[] args)
@@ -28,8 +32,9 @@ namespace FindBeeNumbers
             ReadOnlyJson readOnlyJson = new ReadOnlyJson();
             Bee bee = readOnlyJson.ReadJson(path);
 
-            var twoLastNumberTaboo = bee.TabooNumbers;
-            var twoLastNumberNice = bee.NiceNumbers;
+            var providerNetworkFromBee = bee.Providers;
+            var twoLastNumberTabooFromBee = bee.TabooNumbers;
+            var twoLastNumberNiceFromBee = bee.NiceNumbers;
 
             using IHost host = CreateHostBuilder(args).Build();
 
@@ -46,23 +51,28 @@ namespace FindBeeNumbers
 
                 foreach (var phone in phones)
                 {
-
                     var twoLastNumber = phone.Number.Substring(phone.Number.Length - 2);
 
-                    // The last 2 num chars is taboo
-                    if (Array.Exists(twoLastNumberTaboo, element => element.Equals(twoLastNumber)))
+                    // Check provider network
+                    if (CheckProviderNetwork(phone, providerNetworkFromBee))
                     {
-                        Console.WriteLine("number phone: {0} - {1} rule is violated,", phone.Number, phone.Network);
-                    }
-                    else
-                    {
-                        // Total first 5 nums / Total last 5 nums: matches 1 in n conditions configuratin into Bee.json
-                        if (CheckTotal5NumberFirstAndLast(phone.Number, bee.SumOfNumbers) && 
-                            Array.Exists(twoLastNumberNice, element => element.Equals(twoLastNumber)))
+                        // The last 2 num chars is taboo
+                        if (Array.Exists(twoLastNumberTabooFromBee, element => element.Equals(twoLastNumber)))
                         {
-                            Console.WriteLine("Good Bee => number phone: {0} - {1} rule is violated,", phone.Number, phone.Network);
-                        };
+                            // rule is violated
+                            Console.WriteLine("rule is violated => number phone: {0} - {1} rule is violated,", phone.Number, phone.Network);
+                        }
+                        else
+                        {
+                            // Total first 5 nums / Total last 5 nums: matches 1 in n conditions configuratin into Bee.json
+                            if (CheckTotal5NumberFirstAndLast(phone.Number, bee.SumOfNumbers) &&
+                                Array.Exists(twoLastNumberNiceFromBee, element => element.Equals(twoLastNumber)))
+                            {
+                                Console.WriteLine("number phone match Bee: {0} - {1},", phone.Number, phone.Network);
+                            };
+                        }
                     }
+
 
                 }
             }
@@ -72,6 +82,34 @@ namespace FindBeeNumbers
 
         }
 
+        /// <summary>
+        /// Check Provider Network
+        /// </summary>
+        /// <param name="phone"></param>
+        /// <param name="providersBee"></param>
+        /// <returns></returns>
+        static bool CheckProviderNetwork(Phone phone, List<Provider> providersBee)
+        {
+            var providerNetwork = phone.Network;
+            var threeFirstNumber = phone.Number.Substring(0, 3);
+
+            foreach (var provider in providersBee)
+            {
+                if (provider.Name.Equals(providerNetwork))
+                {
+                    return Array.Exists(provider.Prefixes, element => element.Equals(threeFirstNumber));
+                }
+            }
+
+            return false;
+        }
+
+        /// <summary>
+        /// Check Total 5 Number First And Last
+        /// </summary>
+        /// <param name="numberPhone"></param>
+        /// <param name="sumOfNumbers"></param>
+        /// <returns></returns>
         static bool CheckTotal5NumberFirstAndLast(string numberPhone, List<SumOfNumbers> sumOfNumbers)
         {
             int total5NumberFirst = 0;
@@ -89,6 +127,11 @@ namespace FindBeeNumbers
             return false;
         }
 
+        /// <summary>
+        /// CreateHostBuilder
+        /// </summary>
+        /// <param name="args"></param>
+        /// <returns></returns>
         static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureServices((_, servicesCollection) =>
@@ -99,6 +142,12 @@ namespace FindBeeNumbers
                 );
 
 
+        /// <summary>
+        /// ExemplifyScoping
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="services"></param>
+        /// <returns></returns>
         static IController ExemplifyScoping<T>(IServiceProvider services)
         {
             using IServiceScope serviceScope = services.CreateScope();

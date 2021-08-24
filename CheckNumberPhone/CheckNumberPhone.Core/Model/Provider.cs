@@ -3,6 +3,6 @@
     public class Provider
     {
         public string Name { get; set; }
-        public int[] Prefixes { get; set; }
+        public string[] Prefixes { get; set; }
     }
 }

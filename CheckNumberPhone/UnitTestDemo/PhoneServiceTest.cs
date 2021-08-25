@@ -49,12 +49,14 @@ namespace UnitTestDemo
         }
 
         [Test]
-        [TestCase("0861975619")] // =10
-        public void IsBeeNumber_ValidLength_ShouldReturnTrue(string number)
+        [TestCase("0861975619", "Viettel")] // =10
+        [TestCase("0894378337", "Mobi")] // =10
+        public void IsBeeNumber_ValidLength_ShouldReturnTrue(string number, string provider)
         {
             var phone = new Phone
             {
                 Number = number,
+                Network = provider
             };
 
             var result = _phoneService.IsBeeNumber(_bee, phone);

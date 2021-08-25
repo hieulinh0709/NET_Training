@@ -1,11 +1,12 @@
-﻿using FindBeeNumbers.Core.Model;
+﻿using CheckNumberPhone.Main.Interface;
+using FindBeeNumbers.Core.Model;
 using Newtonsoft.Json;
 using System;
 using System.IO;
 
 namespace CheckNumberPhone.Main.FileHandle
 {
-    public class ReadOnlyJson
+    public class ReadOnlyJson : IReadOnlyJson
     {
         public Bee ReadJson(string path)
         {

@@ -15,6 +15,7 @@ namespace UnitTestDemo
     {
         private IPhoneService _phoneService;
         private Bee _bee;
+        private ReadOnlyJson _beeConfig;
 
         [SetUp]
         public void Setup()
@@ -28,8 +29,8 @@ namespace UnitTestDemo
 
             // Gets the full path or UNC location of the loaded file that contains the manifest.
             string path = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location) + fileName;
-            ReadOnlyJson beeConfig = new ReadOnlyJson();
-            _bee = beeConfig.ReadJson(path);
+            _beeConfig = new ReadOnlyJson();
+            _bee = _beeConfig.ReadJson(path);
         }
 
         [Test]

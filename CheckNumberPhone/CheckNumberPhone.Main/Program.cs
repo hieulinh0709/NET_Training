@@ -2,7 +2,6 @@
 using CheckNumberPhone.Main.FileHandle;
 using CheckNumberPhone.Main.Interface;
 using FindBeeNumbers.Core.Data;
-using FindBeeNumbers.Core.Entities;
 using FindBeeNumbers.Core.Model;
 using FindBeeNumbers.Repository.IRepository;
 using FindBeeNumbers.Repository.Repository;
@@ -11,9 +10,7 @@ using FindBeeNumbers.Service.Interface;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 
 namespace FindBeeNumbers
 {

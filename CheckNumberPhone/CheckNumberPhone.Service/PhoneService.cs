@@ -11,6 +11,7 @@ namespace FindBeeNumbers.Service
     public class PhoneService : IPhoneService
     {
         private readonly IPhoneRepository _phoneRepository;
+
         public PhoneService(IPhoneRepository phoneRepository)
         {
             _phoneRepository = phoneRepository;
@@ -49,6 +50,12 @@ namespace FindBeeNumbers.Service
             return phonesChecked;
         }
 
+        /// <summary>
+        /// Is Bee Number
+        /// </summary>
+        /// <param name="bee"></param>
+        /// <param name="phone"></param>
+        /// <returns></returns>
         public bool IsBeeNumber(Bee bee, Phone phone)
         {
             var providerNetworkFromBee = bee.Providers;
@@ -66,7 +73,7 @@ namespace FindBeeNumbers.Service
                     // The last 2 num chars is taboo
                     if (Array.Exists(twoLastNumberTabooFromBee, element => element.Equals(twoLastNumber)))
                     {
-                        
+                        return false;
                     }
                     else
                     {

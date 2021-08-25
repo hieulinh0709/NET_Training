@@ -29,55 +29,58 @@ namespace FindBeeNumbers.Service
         /// <returns></returns>
         public List<Phone> ListNumberPhoneChecked(List<Phone> phones, Bee bee)
         {
-            var providerNetworkFromBee = bee.Providers;
-            var twoLastNumberTabooFromBee = bee.TabooNumbers;
-            var twoLastNumberNiceFromBee = bee.NiceNumbers;
+            
             List<Phone> phonesChecked = new List<Phone>();
 
             if (phones == null)
             {
-                //  Add message for viewModel
-                //Console.WriteLine("danh sach phone number is null");
+                return phonesChecked;
             }
-            else
+
+            foreach (var phone in phones)
             {
-                foreach (var phone in phones)
+               var isBee = IsBeeNumber(bee, phone);
+                if (isBee)
                 {
-                    // check phone number length 
-                    if (phone.Number.Length == bee.Limit)
-                    {
-                        var twoLastNumber = phone.Number.Substring(phone.Number.Length - 2);
-
-                        // Check provider network
-                        if (IsProviderNetwork(phone, providerNetworkFromBee))
-                        {
-                            // The last 2 num chars is taboo
-                            if (Array.Exists(twoLastNumberTabooFromBee, element => element.Equals(twoLastNumber)))
-                            {
-                                // rule is violated
-                                //Console.WriteLine("rule is violated => number phone: {0} - {1} rule is violated,", phone.Number, phone.Network);
-                            }
-                            else
-                            {
-                                // Total first 5 nums / Total last 5 nums: matches 1 in n conditions configuratin into Bee.json
-                                if (IsTotal5NumberFirstAndLast(phone.Number, bee.SumOfNumbers) &&
-                                    Array.Exists(twoLastNumberNiceFromBee, element => element.Equals(twoLastNumber)))
-                                {
-                                    phonesChecked.Add(phone);
-                                };
-                            }
-                        }
-                    }
-                    else
-                    {
-                        //  Add message for viewModel
-                    }
-
-
-                }
+                    phonesChecked.Add(phone);
+                }    
             }
 
             return phonesChecked;
+        }
+
+        public bool IsBeeNumber(Bee bee, Phone phone)
+        {
+            var providerNetworkFromBee = bee.Providers;
+            var twoLastNumberTabooFromBee = bee.TabooNumbers;
+            var twoLastNumberNiceFromBee = bee.NiceNumbers;
+
+            // check phone number length 
+            if (phone.Number.Length == bee.Limit)
+            {
+                var twoLastNumber = phone.Number.Substring(phone.Number.Length - 2);
+
+                // Check provider network
+                if (IsProviderNetwork(phone, providerNetworkFromBee))
+                {
+                    // The last 2 num chars is taboo
+                    if (Array.Exists(twoLastNumberTabooFromBee, element => element.Equals(twoLastNumber)))
+                    {
+                        
+                    }
+                    else
+                    {
+                        // Total first 5 nums / Total last 5 nums: matches 1 in n conditions configuratin into Bee.json
+                        if (IsTotal5NumberFirstAndLast(phone.Number, bee.SumOfNumbers) &&
+                            Array.Exists(twoLastNumberNiceFromBee, element => element.Equals(twoLastNumber)))
+                        {
+                            return true;
+                        };
+                    }
+                }
+            }
+
+            return false;
         }
 
         /// <summary>

@@ -1,0 +1,370 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CheckNumberPhone\\UnitTestDemo\\UnitTestDemo.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CheckNumberPhone\\CheckNumberPhone.Core\\CheckNumberPhone.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CheckNumberPhone\\CheckNumberPhone.Core\\CheckNumberPhone.Core.csproj",
+        "projectName": "CheckNumberPhone.Core",
+        "projectPath": "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CheckNumberPhone\\CheckNumberPhone.Core\\CheckNumberPhone.Core.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CheckNumberPhone\\CheckNumberPhone.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CheckNumberPhone\\CheckNumberPhone.Main\\CheckNumberPhone.Main.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CheckNumberPhone\\CheckNumberPhone.Main\\CheckNumberPhone.Main.csproj",
+        "projectName": "CheckNumberPhone.Main",
+        "projectPath": "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CheckNumberPhone\\CheckNumberPhone.Main\\CheckNumberPhone.Main.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CheckNumberPhone\\CheckNumberPhone.Main\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CheckNumberPhone\\CheckNumberPhone.Core\\CheckNumberPhone.Core.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CheckNumberPhone\\CheckNumberPhone.Core\\CheckNumberPhone.Core.csproj"
+              },
+              "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CheckNumberPhone\\CheckNumberPhone.Service\\CheckNumberPhone.Service.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CheckNumberPhone\\CheckNumberPhone.Service\\CheckNumberPhone.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CheckNumberPhone\\CheckNumberPhone.Repository\\CheckNumberPhone.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CheckNumberPhone\\CheckNumberPhone.Repository\\CheckNumberPhone.Repository.csproj",
+        "projectName": "CheckNumberPhone.Repository",
+        "projectPath": "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CheckNumberPhone\\CheckNumberPhone.Repository\\CheckNumberPhone.Repository.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CheckNumberPhone\\CheckNumberPhone.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CheckNumberPhone\\CheckNumberPhone.Core\\CheckNumberPhone.Core.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CheckNumberPhone\\CheckNumberPhone.Core\\CheckNumberPhone.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CheckNumberPhone\\CheckNumberPhone.Service\\CheckNumberPhone.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CheckNumberPhone\\CheckNumberPhone.Service\\CheckNumberPhone.Service.csproj",
+        "projectName": "CheckNumberPhone.Service",
+        "projectPath": "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CheckNumberPhone\\CheckNumberPhone.Service\\CheckNumberPhone.Service.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CheckNumberPhone\\CheckNumberPhone.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CheckNumberPhone\\CheckNumberPhone.Repository\\CheckNumberPhone.Repository.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CheckNumberPhone\\CheckNumberPhone.Repository\\CheckNumberPhone.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CheckNumberPhone\\UnitTestDemo\\UnitTestDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CheckNumberPhone\\UnitTestDemo\\UnitTestDemo.csproj",
+        "projectName": "UnitTestDemo",
+        "projectPath": "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CheckNumberPhone\\UnitTestDemo\\UnitTestDemo.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CheckNumberPhone\\UnitTestDemo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CheckNumberPhone\\CheckNumberPhone.Main\\CheckNumberPhone.Main.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CheckNumberPhone\\CheckNumberPhone.Main\\CheckNumberPhone.Main.csproj"
+              },
+              "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CheckNumberPhone\\CheckNumberPhone.Service\\CheckNumberPhone.Service.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\03_ForWork\\EMU\\NET_Training\\CheckNumberPhone\\CheckNumberPhone.Service\\CheckNumberPhone.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -10,5 +10,6 @@ namespace FindBeeNumbers.Service.Interface
         List<Phone> ListNumberPhoneChecked(List<Phone> phones, Bee bee);
         bool IsProviderNetwork(Phone phone, List<Provider> providersBee);
         bool IsTotal5NumberFirstAndLast(string numberPhone, List<SumOfNumbers> sumOfNumbers);
+        bool IsBeeNumber(Bee bee, Phone phone);
     }
 }

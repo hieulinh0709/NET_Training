@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckNumberPhone.Core", "Ch
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckNumberPhone.Repository", "CheckNumberPhone.Repository\CheckNumberPhone.Repository.csproj", "{9E965E39-3875-455D-B3AC-9475310BB019}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{50499536-FCBE-4FF2-8D66-75CEAC280587}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "UnitTests\UnitTests.csproj", "{50499536-FCBE-4FF2-8D66-75CEAC280587}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestDemo", "UnitTestDemo\UnitTestDemo.csproj", "{E85AADE2-49AB-428A-9B59-068B57DCC6D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{50499536-FCBE-4FF2-8D66-75CEAC280587}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50499536-FCBE-4FF2-8D66-75CEAC280587}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50499536-FCBE-4FF2-8D66-75CEAC280587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E85AADE2-49AB-428A-9B59-068B57DCC6D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E85AADE2-49AB-428A-9B59-068B57DCC6D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E85AADE2-49AB-428A-9B59-068B57DCC6D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E85AADE2-49AB-428A-9B59-068B57DCC6D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

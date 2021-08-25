@@ -62,6 +62,11 @@ namespace FindBeeNumbers.Service
             var twoLastNumberTabooFromBee = bee.TabooNumbers;
             var twoLastNumberNiceFromBee = bee.NiceNumbers;
 
+            if ( phone.Number == null)
+            {
+                return false;
+            }
+
             // check phone number length 
             if (phone.Number.Length == bee.Limit)
             {

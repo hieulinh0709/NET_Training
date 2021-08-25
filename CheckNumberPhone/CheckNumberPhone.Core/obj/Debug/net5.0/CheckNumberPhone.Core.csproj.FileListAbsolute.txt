@@ -12,3 +12,4 @@ C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumbe
 C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Core\obj\Debug\net5.0\ref\CheckNumberPhone.Core.dll
 C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Core\obj\Debug\net5.0\CheckNumberPhone.Core.pdb
 C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Core\obj\Debug\net5.0\CheckNumberPhone.Core.genruntimeconfig.cache
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CheckNumberPhone\CheckNumberPhone.Core\obj\Debug\net5.0\CheckNumberPhone.Core.csproj.AssemblyReference.cache

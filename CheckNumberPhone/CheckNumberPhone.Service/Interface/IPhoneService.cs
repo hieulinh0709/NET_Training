@@ -1,5 +1,4 @@
 ﻿using FindBeeNumbers.Core.Entities;
-using FindBeeNumbers.Core.Interface;
 using FindBeeNumbers.Core.Model;
 using System.Collections.Generic;
 

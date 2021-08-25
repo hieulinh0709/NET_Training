@@ -29,7 +29,13 @@ namespace CheckNumberPhone.Core.Migrations
                     { 2, "Viettel", "0975375619" },
                     { 3, "Mobi", "0894375619" },
                     { 4, "VinaPhone", "0917775619" },
-                    { 5, "Viettel", "0337578949" }
+                    { 5, "Viettel", "0337578966" },
+                    { 6, "VietNamMobile", "0881775727" },
+                    { 7, "Mobi", "0894378337" },
+                    { 8, "", "0894378904" },
+                    { 9, null, "0894378904" },
+                    { 10, null, null },
+                    { 11, "Mobi", "abcdefgh" }
                 });
         }
 

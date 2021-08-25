@@ -66,7 +66,40 @@ namespace CheckNumberPhone.Core.Migrations
                         {
                             Id = 5,
                             Network = "Viettel",
-                            Number = "0337578949"
+                            Number = "0337578966"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Network = "VietNamMobile",
+                            Number = "0881775727"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Network = "Mobi",
+                            Number = "0894378337"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Network = "",
+                            Number = "0894378904"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            Number = "0894378904"
+                        },
+                        new
+                        {
+                            Id = 10
+                        },
+                        new
+                        {
+                            Id = 11,
+                            Network = "Mobi",
+                            Number = "abcdefgh"
                         });
                 });
 #pragma warning restore 612, 618

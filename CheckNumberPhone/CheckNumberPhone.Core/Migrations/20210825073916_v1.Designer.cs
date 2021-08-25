@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CheckNumberPhone.Core.Migrations
 {
     [DbContext(typeof(PhoneContext))]
-    [Migration("20210825053656_v1")]
+    [Migration("20210825073916_v1")]
     partial class v1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -1,4 +1,5 @@
-﻿using CheckNumberPhone.Main.FileHandle;
+﻿using CheckNumberPhone.Core.Interface;
+using CheckNumberPhone.Main.FileHandle;
 using FindBeeNumbers.Core.Entities;
 using FindBeeNumbers.Core.Model;
 using FindBeeNumbers.Repository.IRepository;
@@ -20,6 +21,7 @@ namespace UnitTestDemo
         [SetUp]
         public void Setup()
         {
+            //var mockRepo = new Mock<IAsyncRepository<Phone>>();
             var mockRepo = new Mock<IPhoneRepository>();
 
             _phoneService = new PhoneService(mockRepo.Object);

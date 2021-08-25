@@ -1,10 +1,12 @@
-﻿using FindBeeNumbers.Core.Entities;
+﻿using CheckNumberPhone.Core.Interface;
+using FindBeeNumbers.Core.Entities;
 using FindBeeNumbers.Core.Model;
 using FindBeeNumbers.Repository.IRepository;
 using FindBeeNumbers.Service.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace FindBeeNumbers.Service
 {
@@ -17,9 +19,10 @@ namespace FindBeeNumbers.Service
             _phoneRepository = phoneRepository;
         }
 
-        public List<Phone> GetPhones()
+        public async Task<List<Phone>> GetAllPhones()
         {
-            return _phoneRepository.GetPhones();
+            var list = await _phoneRepository.GetAllPhones();
+            return list;
         }
 
         /// <summary>

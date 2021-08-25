@@ -1,7 +1,9 @@
-﻿using CheckNumberPhone.Main;
+﻿using CheckNumberPhone.Core.Interface;
+using CheckNumberPhone.Main;
 using CheckNumberPhone.Main.FileHandle;
 using CheckNumberPhone.Main.Interface;
 using FindBeeNumbers.Core.Data;
+using FindBeeNumbers.Core.Entities;
 using FindBeeNumbers.Core.Model;
 using FindBeeNumbers.Repository.IRepository;
 using FindBeeNumbers.Repository.Repository;
@@ -10,7 +12,9 @@ using FindBeeNumbers.Service.Interface;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
+using System.Linq;
 using System.IO;
+using System.Threading.Tasks;
 
 namespace FindBeeNumbers
 {
@@ -19,7 +23,7 @@ namespace FindBeeNumbers
     /// </summary>
     public static class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             string fileName = @"\Bee.json";
 
@@ -37,7 +41,7 @@ namespace FindBeeNumbers
 
             var scoping = ExemplifyScoping<MyController>(host.Services);
 
-            var phones = scoping.FindNumberPhoneWithBee();
+            var phones = await scoping.GetAllPhones();
 
             var listNumberPhoneChecked = scoping.ListNumberPhoneChecked(phones, bee);
 

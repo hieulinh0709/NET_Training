@@ -1,5 +1,4 @@
-﻿using CheckNumberPhone.Core.Interface;
-using CheckNumberPhone.Main.FileHandle;
+﻿using CheckNumberPhone.Main.FileHandle;
 using FindBeeNumbers.Core.Entities;
 using FindBeeNumbers.Core.Model;
 using FindBeeNumbers.Repository.IRepository;
@@ -8,6 +7,7 @@ using FindBeeNumbers.Service.Interface;
 using Moq;
 using NUnit.Framework;
 using System.IO;
+using System.Reflection;
 
 namespace UnitTestDemo
 {
@@ -19,41 +19,43 @@ namespace UnitTestDemo
         private ReadOnlyJson _beeConfig;
 
         [SetUp]
-        public void Setup()
+        public void SetUp()
         {
-            //var mockRepo = new Mock<IAsyncRepository<Phone>>();
+            string fileName = @"\Bee.json";
+            // Gets the full path or UNC location of the loaded file that contains the manifest.
+            string path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + fileName;
+
             var mockRepo = new Mock<IPhoneRepository>();
 
             _phoneService = new PhoneService(mockRepo.Object);
 
-
-            string fileName = @"\Bee.json";
-
-            // Gets the full path or UNC location of the loaded file that contains the manifest.
-            string path = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location) + fileName;
             _beeConfig = new ReadOnlyJson();
             _bee = _beeConfig.ReadJson(path);
         }
 
         [Test]
-        [TestCase("123456789")] // < 10
-        [TestCase("12345678910")] // >10
-        public void IsBeeNumber_InvalidLength_ShouldReturnFalse(string number)
+        [TestCase("123456789", "Viettel")]
+        [TestCase("12345678910", "Viettel")] 
+        [TestCase("xxxxxxxxxx", "")] 
+        [TestCase("", "")] 
+        public void IsBeeNumber_InvalidNumberPhone_ShouldReturnFalse(string number, string provider)
         {
             var phone = new Phone
             {
                 Number = number,
+                Network = provider
             };
 
             var result = _phoneService.IsBeeNumber(_bee, phone);
 
+            // Trả về mà không quăng ra ngoại lệ
             Assert.That(result, Is.False);
         }
 
         [Test]
-        [TestCase("0861975619", "Viettel")] // =10
-        [TestCase("0894378337", "Mobi")] // =10
-        public void IsBeeNumber_ValidLength_ShouldReturnTrue(string number, string provider)
+        [TestCase("0861975619", "Viettel")]
+        [TestCase("0894378337", "Mobix")]
+        public void IsBeeNumber_ValidNumberPhone_ShouldReturnTrue(string number, string provider)
         {
             var phone = new Phone
             {

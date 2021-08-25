@@ -1,5 +1,4 @@
-﻿using CheckNumberPhone.Core.Interface;
-using FindBeeNumbers.Core.Entities;
+﻿using FindBeeNumbers.Core.Entities;
 using FindBeeNumbers.Core.Model;
 using FindBeeNumbers.Repository.IRepository;
 using FindBeeNumbers.Service.Interface;
@@ -10,6 +9,9 @@ using System.Threading.Tasks;
 
 namespace FindBeeNumbers.Service
 {
+    /// <summary>
+    /// PhoneService
+    /// </summary>
     public class PhoneService : IPhoneService
     {
         private readonly IPhoneRepository _phoneRepository;
@@ -19,6 +21,11 @@ namespace FindBeeNumbers.Service
             _phoneRepository = phoneRepository;
         }
 
+        #region method
+        /// <summary>
+        /// Get all number phone
+        /// </summary>
+        /// <returns></returns>
         public async Task<List<Phone>> GetAllPhones()
         {
             var list = await _phoneRepository.GetAllPhones();
@@ -65,7 +72,7 @@ namespace FindBeeNumbers.Service
             var twoLastNumberTabooFromBee = bee.TabooNumbers;
             var twoLastNumberNiceFromBee = bee.NiceNumbers;
 
-            if ( phone.Number == null)
+            if (string.IsNullOrEmpty(phone.Number))
             {
                 return false;
             }
@@ -76,7 +83,7 @@ namespace FindBeeNumbers.Service
                 var twoLastNumber = phone.Number.Substring(phone.Number.Length - 2);
 
                 // Check provider network
-                if (IsProviderNetwork(phone, providerNetworkFromBee))
+                if ( IsProviderNetwork(phone, providerNetworkFromBee))
                 {
                     // The last 2 num chars is taboo
                     if (Array.Exists(twoLastNumberTabooFromBee, element => element.Equals(twoLastNumber)))
@@ -145,5 +152,6 @@ namespace FindBeeNumbers.Service
             }
             return false;
         }
+        #endregion method
     }
 }

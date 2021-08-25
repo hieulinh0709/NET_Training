@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 
 namespace FindBeeNumbers.Repository.Repository
 {
+    /// <summary>
+    /// PhoneRepository
+    /// </summary>
     public class PhoneRepository : RepositoryBase<Phone>, IPhoneRepository
     {
         private readonly PhoneContext _dbContext;
@@ -19,10 +22,12 @@ namespace FindBeeNumbers.Repository.Repository
             _dbContext = dbContext;
         }
 
+        #region method
         public async Task<List<Phone>> GetAllPhones()
         {
             var phones = await _dbContext.Phones.ToListAsync();
             return phones;
         }
+        #endregion method
     }
 }

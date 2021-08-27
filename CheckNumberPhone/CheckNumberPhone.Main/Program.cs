@@ -52,7 +52,7 @@ namespace FindBeeNumbers
             Console.ReadKey();
 
         }
-        
+
 
         /// <summary>
         /// CreateHostBuilder

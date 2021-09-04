@@ -1,0 +1,16 @@
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\AbstractFactoryPattern\bin\Debug\net5.0\AbstractFactoryPattern.exe
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\AbstractFactoryPattern\bin\Debug\net5.0\AbstractFactoryPattern.deps.json
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\AbstractFactoryPattern\bin\Debug\net5.0\AbstractFactoryPattern.runtimeconfig.json
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\AbstractFactoryPattern\bin\Debug\net5.0\AbstractFactoryPattern.runtimeconfig.dev.json
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\AbstractFactoryPattern\bin\Debug\net5.0\AbstractFactoryPattern.dll
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\AbstractFactoryPattern\bin\Debug\net5.0\ref\AbstractFactoryPattern.dll
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\AbstractFactoryPattern\bin\Debug\net5.0\AbstractFactoryPattern.pdb
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\AbstractFactoryPattern\obj\Debug\net5.0\AbstractFactoryPattern.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\AbstractFactoryPattern\obj\Debug\net5.0\AbstractFactoryPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\AbstractFactoryPattern\obj\Debug\net5.0\AbstractFactoryPattern.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\AbstractFactoryPattern\obj\Debug\net5.0\AbstractFactoryPattern.AssemblyInfo.cs
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\AbstractFactoryPattern\obj\Debug\net5.0\AbstractFactoryPattern.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\AbstractFactoryPattern\obj\Debug\net5.0\AbstractFactoryPattern.dll
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\AbstractFactoryPattern\obj\Debug\net5.0\ref\AbstractFactoryPattern.dll
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\AbstractFactoryPattern\obj\Debug\net5.0\AbstractFactoryPattern.pdb
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\AbstractFactoryPattern\obj\Debug\net5.0\AbstractFactoryPattern.genruntimeconfig.cache

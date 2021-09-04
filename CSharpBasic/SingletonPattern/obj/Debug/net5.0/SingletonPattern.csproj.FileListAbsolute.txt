@@ -1,0 +1,16 @@
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\SingletonPattern\bin\Debug\net5.0\SingletonPattern.exe
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\SingletonPattern\bin\Debug\net5.0\SingletonPattern.deps.json
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\SingletonPattern\bin\Debug\net5.0\SingletonPattern.runtimeconfig.json
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\SingletonPattern\bin\Debug\net5.0\SingletonPattern.runtimeconfig.dev.json
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\SingletonPattern\bin\Debug\net5.0\SingletonPattern.dll
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\SingletonPattern\bin\Debug\net5.0\ref\SingletonPattern.dll
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\SingletonPattern\bin\Debug\net5.0\SingletonPattern.pdb
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\SingletonPattern\obj\Debug\net5.0\SingletonPattern.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\SingletonPattern\obj\Debug\net5.0\SingletonPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\SingletonPattern\obj\Debug\net5.0\SingletonPattern.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\SingletonPattern\obj\Debug\net5.0\SingletonPattern.AssemblyInfo.cs
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\SingletonPattern\obj\Debug\net5.0\SingletonPattern.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\SingletonPattern\obj\Debug\net5.0\SingletonPattern.dll
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\SingletonPattern\obj\Debug\net5.0\ref\SingletonPattern.dll
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\SingletonPattern\obj\Debug\net5.0\SingletonPattern.pdb
+C:\Users\Admin\Documents\03_ForWork\EMU\NET_Training\CSharpBasic\SingletonPattern\obj\Debug\net5.0\SingletonPattern.genruntimeconfig.cache
